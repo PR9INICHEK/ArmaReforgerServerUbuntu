@@ -6,6 +6,7 @@
 /home/steam/.config/ArmaReforger/ по умолчанию создаются, если не указать куда складывать логи
 
 
+
 cd /home/steam/.steam/steam/arma-reforger-server
 Тут создаю скрытую папку .profile
   mkdir .profile
@@ -13,7 +14,23 @@ cd /home/steam/.steam/steam/arma-reforger-server
 
 
 По умолчанию при указании папки, сервер скачивается в home/steam/.steam/steam/steamcmd
+  https://steamcommunity.com/app/544550/discussions/0/1621724915788946077/#c3140616601475537134
 steam после home это имя пользователя - поэтому вводит в заблуждение
+  
+
+mkdir arma-reforger
+  server-data
+  config
+  profile
+
+force_install_dir home/steam/arma-reforger/server-data
+
+
+
+
+
+Для удаления папок и файлов внутри
+  rm -rf reforger
 
 
 mkdir reforger
