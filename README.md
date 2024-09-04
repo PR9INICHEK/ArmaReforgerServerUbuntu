@@ -17,6 +17,7 @@ cd /home/steam/.steam/steam/arma-reforger-server
   https://steamcommunity.com/app/544550/discussions/0/1621724915788946077/#c3140616601475537134
 steam после home это имя пользователя - поэтому вводит в заблуждение
   
+? Тут может создавать папку game-servers и уже остальные будут подпапками
 
 mkdir arma-reforger
   server-data
