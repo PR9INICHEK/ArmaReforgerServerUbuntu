@@ -22,6 +22,7 @@ mkdir arma-reforger
   server-data
   config
   profile
+  bats
 
 force_install_dir /home/steam/arma-reforger/server-data
 login anonymous
@@ -46,3 +47,5 @@ force_install_dir ./armar_ds/
 
 ??? Может нарисовать эту структуру, где что лежит
 И может не стоит запариваться и для данных сервера задавать отдельную папку
+
+TODO Улучшить инструкцию https://community.bistudio.com/wiki/Arma_Reforger:Server_Hosting, чтобы все свои ошибки учесть для будущих ребят
