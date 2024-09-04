@@ -68,3 +68,11 @@ TODO Улучшить инструкцию https://community.bistudio.com/wiki/A
 BACKEND      : Server registered with address: 194.87.209.172:2001
 BACKEND      : Direct Join Code: 0625121340
 
+
+
+Для работы с сервером
+Чтение логов:
+1. Сначала попадаем в папку с логами - cd arma-reforger/profiles/stable/logs
+2. Потом смотрим, какие папки тут есть - ls
+3. Копируем нужную и переходим в неё
+4. Смотрим файлы из неё
