@@ -21,15 +21,22 @@ steam после home это имя пользователя - поэтому в
 
 mkdir arma-reforger
   server-data
-  config
-  profile
+  configs
+    Conflict.json
+  profiles
+    stable
   bats
+    start-server.txt
+      cd /home/steam/arma-reforger/server-data/
+      ./ArmaReforgerServer -config /home/steam/arma-reforger/configs/Conflict.json -profile /home/steam/arma-reforger/profiles/stable
 
 force_install_dir /home/steam/arma-reforger/server-data
 login anonymous
 app_update 1874900 validate
 
 
+
+bash start-server.txt
 
 
 
@@ -50,3 +57,10 @@ force_install_dir ./armar_ds/
 И может не стоит запариваться и для данных сервера задавать отдельную папку
 
 TODO Улучшить инструкцию https://community.bistudio.com/wiki/Arma_Reforger:Server_Hosting, чтобы все свои ошибки учесть для будущих ребят
+
+
+
+В итоге вы такое должны увидет
+BACKEND      : Server registered with address: 194.87.209.172:2001
+BACKEND      : Direct Join Code: 0625121340
+
