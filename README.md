@@ -11,6 +11,11 @@ cd /home/steam/.steam/steam/arma-reforger-server
   mkdir .profile
 
 
+
+По умолчанию при указании папки, сервер скачивается в home/steam/.steam/steam/steamcmd
+steam после home это имя пользователя - поэтому вводит в заблуждение
+
+
 mkdir reforger
 force_install_dir ./reforger/
 
