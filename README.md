@@ -9,7 +9,7 @@ TODO
 
 /home/steam/.config/ArmaReforger/ по умолчанию создаются, если не указать куда складывать логи
 
-
+? А может логи и конфиги сервера хранить в папке, что по умолчанию создаются
 
 cd /home/steam/.steam/steam/arma-reforger-server
 Тут создаю скрытую папку .profile
@@ -75,4 +75,4 @@ BACKEND      : Direct Join Code: 0625121340
 1. Сначала попадаем в папку с логами - cd arma-reforger/profiles/stable/logs
 2. Потом смотрим, какие папки тут есть - ls
 3. Копируем нужную и переходим в неё
-4. Смотрим файлы из неё
+4. Смотрим файлы из неё, например console.log - nano console.log
