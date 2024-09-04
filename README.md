@@ -23,7 +23,9 @@ mkdir arma-reforger
   config
   profile
 
-force_install_dir home/steam/arma-reforger/server-data
+force_install_dir /home/steam/arma-reforger/server-data
+login anonymous
+app_update 1874900 validate
 
 
 
@@ -40,3 +42,7 @@ force_install_dir ./armar_ds/
 
 
 Надо создать аналог update_armar_ds.txt для запуска сервера
+
+
+??? Может нарисовать эту структуру, где что лежит
+И может не стоит запариваться и для данных сервера задавать отдельную папку
