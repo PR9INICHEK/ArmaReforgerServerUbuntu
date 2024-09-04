@@ -43,6 +43,10 @@ login anonymous
 app_update 1874900 validate
 
 
+Запуск сервера:
+1. cd /home/steam/arma-reforger/bats/; bash start-server.txt
+   
+
 
 bash start-server.txt
   ? Как передавать путь к этому файлу, чтобы запускать его из любого места
