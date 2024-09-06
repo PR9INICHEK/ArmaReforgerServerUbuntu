@@ -159,3 +159,16 @@ armarserver is not in the sudoers file.
 Можно попробовать настроить
   https://docs.linuxgsm.com/alerts/discord
     или в тг - https://docs.linuxgsm.com/alerts/telegram****
+
+
+Какие есть редакторы:
+  
+Select an editor.  To change later, run 'select-editor'.
+  1. /bin/nano        <---- easiest
+  2. /usr/bin/vim.basic
+  3. /usr/bin/vim.tiny
+  4. /bin/ed
+
+
+Можно попробовать это настроить для экспериментальной версии
+https://docs.linuxgsm.com/configuration/linuxgsm-config
