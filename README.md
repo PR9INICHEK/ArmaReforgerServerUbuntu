@@ -131,9 +131,10 @@ https://linuxgsm.com/servers/armarserver/#v-pills-install
 
 https://linuxgsm.com/servers/armarserver/
 
-sudo adduser armarserver
+`sudo adduser armarserver`
   Если не из под root делаем
-su - armarserver
+  СКОРЕЕ ВСЕГО НАДО ВОТ ЭТУ КОМАНДУ -  `sudo adduser armarserver sudo`
+`su - armarserver`
   И пароль от этой новой учётки
 
 curl -Lo linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh armarserver
