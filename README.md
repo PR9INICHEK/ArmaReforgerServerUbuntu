@@ -154,3 +154,7 @@ Run: 'sudo dpkg --add-architecture i386; sudo apt update; sudo apt install binut
 
 armarserver is not in the sudoers file.
   `sudo adduser armarserver sudo`
+
+
+Можно попробовать настроить
+  https://docs.linuxgsm.com/alerts/discord
