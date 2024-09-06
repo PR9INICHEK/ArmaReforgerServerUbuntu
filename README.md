@@ -43,6 +43,9 @@ mkdir arma-reforger
       cd /home/steam/arma-reforger/server-data/
       ./ArmaReforgerServer -config /home/steam/arma-reforger/configs/Conflict.json -profile /home/steam/arma-reforger/profiles/stable
 
+Выше можно экспу просто в отдельную папку отдать - armarserverexp
+
+
 force_install_dir /home/steam/arma-reforger/server-data
 login anonymous
 app_update 1874900 validate
@@ -145,6 +148,9 @@ Warning! Missing dependencies: binutils bsdmainutils bzip2 lib32gcc-s1 lib32stdc
 Warning! armarserver does not have sudo access. Manually install dependencies or run ./armarserver install as root.
 
 Run: 'sudo dpkg --add-architecture i386; sudo apt update; sudo apt install binutils bsdmainutils bzip2 lib32gcc-s1 lib32stdc++6 libcurl4 libsdl2-2.0-0:i386 pigz unzip' as root to install missing dependencies.
+    Need to get 86.3 MB of archives.
+    After this operation, 224 MB of additional disk space will be used.
+
 
 armarserver is not in the sudoers file.
   `sudo adduser armarserver sudo`
