@@ -29,6 +29,8 @@ steam после home это имя пользователя - поэтому в
 
 mkdir arma-reforger
   server-data
+    stable
+    exp
   configs
     Conflict.json
   profiles
@@ -53,6 +55,21 @@ bash start-server.txt
 
 
 
+
+Установка экспериментального сервера:
+1. steamcmd
+2. force_install_dir /home/steam/arma-reforger/server-data/exp
+3. login anonymous
+4. app_update 1890870 validate
+
+
+
+
+
+
+
+
+Остальное:
 Для удаления папок и файлов внутри
   rm -rf reforger
 
