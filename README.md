@@ -11,7 +11,7 @@ TODO
 
 Шаги, что выполнял для запуска сервера
 1. Выполнял шаги из https://developer.valvesoftware.com/wiki/SteamCMD#Linux
-2. Надо было только ещё дополнительно выполнить команду sudo adduser steam sudo из https://askubuntu.com/a/1414685
+2. Надо было только ещё дополнительно выполнить команду `sudo adduser steam sudo` из https://askubuntu.com/a/1414685
 3. Потом потребовалось выполнить PATH=$PATH:/usr/games из https://forums.linuxmint.com/viewtopic.php?p=1245194&sid=01cf5aabb486e1cad3e79d52183511a4#p1245194
 
 /home/steam/.config/ArmaReforger/ по умолчанию создаются, если не указать куда складывать логи
@@ -130,3 +130,20 @@ BACKEND      : Direct Join Code: 0625121340
 https://linuxgsm.com/servers/armarserver/#v-pills-install
 
 https://linuxgsm.com/servers/armarserver/
+
+sudo adduser armarserver
+  Если не из под root делаем
+su - armarserver
+  И пароль от этой новой учётки
+
+curl -Lo linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh armarserver
+
+./armarserver install
+
+Warning! Missing dependencies: binutils bsdmainutils bzip2 lib32gcc-s1 lib32stdc++6 libcurl4 libsdl2-2.0-0:i386 pigz unzip
+Warning! armarserver does not have sudo access. Manually install dependencies or run ./armarserver install as root.
+
+Run: 'sudo dpkg --add-architecture i386; sudo apt update; sudo apt install binutils bsdmainutils bzip2 lib32gcc-s1 lib32stdc++6 libcurl4 libsdl2-2.0-0:i386 pigz unzip' as root to install missing dependencies.
+
+armarserver is not in the sudoers file.
+  `sudo adduser armarserver sudo`
