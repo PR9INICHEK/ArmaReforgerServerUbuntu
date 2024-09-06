@@ -158,3 +158,4 @@ armarserver is not in the sudoers file.
 
 Можно попробовать настроить
   https://docs.linuxgsm.com/alerts/discord
+    или в тг - https://docs.linuxgsm.com/alerts/telegram****
