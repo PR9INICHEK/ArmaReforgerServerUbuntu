@@ -64,8 +64,11 @@ bash start-server.txt
 5. quit
 6. cd /home/steam/arma-reforger/bats
 7. nano start-exp-server.txt
-8.   cd /home/steam/arma-reforger/server-data/
-      ./ArmaReforgerServer -config /home/steam/arma-reforger/configs/Conflict.json -profile /home/steam/arma-reforger/profiles/stable
+    - cd /home/steam/arma-reforger/server-data/exp
+      ./ArmaReforgerServer -config /home/steam/arma-reforger/configs/exp-conflict.json -profile /home/steam/arma-reforger/profiles/exp
+8. cd /home/steam/arma-reforger/configs
+9. Опционально
+    - cp Conflict.json exp-conflict.json
 
 Запуск экспериментального сервера:
 1. cd /home/steam/arma-reforger/bats/; bash start-exp-server.txt
