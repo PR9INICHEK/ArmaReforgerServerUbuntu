@@ -1,3 +1,6 @@
+`tmux attach || tmux new`
+
+
 TODO
 1. При закрытии окна подключения сервер выключается
 2.   Тут рекомендуют Docker - https://www.reddit.com/r/admincraft/comments/1ags04e/how_to_continue_running_the_server_on_my_vps/
