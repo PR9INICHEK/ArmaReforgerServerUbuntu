@@ -61,6 +61,14 @@ bash start-server.txt
 2. force_install_dir /home/steam/arma-reforger/server-data/exp
 3. login anonymous
 4. app_update 1890870 validate
+5. quit
+6. cd /home/steam/arma-reforger/bats
+7. nano start-exp-server.txt
+8.   cd /home/steam/arma-reforger/server-data/
+      ./ArmaReforgerServer -config /home/steam/arma-reforger/configs/Conflict.json -profile /home/steam/arma-reforger/profiles/stable
+
+Запуск экспериментального сервера:
+1. cd /home/steam/arma-reforger/bats/; bash start-exp-server.txt
 
 
 
