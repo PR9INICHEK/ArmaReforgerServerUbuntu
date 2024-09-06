@@ -124,3 +124,9 @@ BACKEND      : Direct Join Code: 0625121340
 3. Выключить root пользователя
 4. Настроить подключение через ключи доступа
 5. 
+
+
+
+https://linuxgsm.com/servers/armarserver/#v-pills-install
+
+https://linuxgsm.com/servers/armarserver/
