@@ -130,6 +130,8 @@ BACKEND      : Direct Join Code: 0625121340
 
 
 
+
+LGSM
 https://linuxgsm.com/servers/armarserver/#v-pills-install
 
 https://linuxgsm.com/servers/armarserver/
@@ -172,3 +174,14 @@ Select an editor.  To change later, run 'select-editor'.
 
 Можно попробовать это настроить для экспериментальной версии
 https://docs.linuxgsm.com/configuration/linuxgsm-config
+
+
+
+Для экспы
+1. sudo adduser armarexpserver
+2. sudo adduser armarexpserver sudo
+3. su - armarexpserver
+4. Это не срабатывает. Перезапускаю соединение и ввожу сразу команды ниже
+5. curl -Lo linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh armarserver
+6. ./armarserver install
+7. 
