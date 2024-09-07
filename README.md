@@ -191,6 +191,9 @@ https://docs.linuxgsm.com/configuration/linuxgsm-config
 11. А потом вот так...
 12.  chown -R armarexpserver:armarexpserver /home/armarexpserver
     chown: changing ownership of '/home/armarexpserver/serverfiles/armarserver_config.json': Operation not permitted
+13. Изменить bindPort и publicPort, например на 2201. Возможно что надо только один изменить
+
+
 
 
 cd log/console
