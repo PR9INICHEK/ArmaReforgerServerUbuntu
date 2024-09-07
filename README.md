@@ -186,9 +186,10 @@ https://docs.linuxgsm.com/configuration/linuxgsm-config
 6. ./armarserver install
 7. Add appid="1890870" to Your ./lgsm/config-lgsm/armarserver/armarserver.cfg
 8. ./armarserver v
-9. sudo cp /home/armarserver/serverfiles/armarserver_config.json /home/armarexpserver/serverfiles/armarserver_config.json
-10. А потом вот так...
-11.  chown -R armarexpserver:armarexpserver /home/armarexpserver
+9. вручную переношу данные из конфига
+10. sudo cp /home/armarserver/serverfiles/armarserver_config.json /home/armarexpserver/serverfiles/armarserver_config.json
+11. А потом вот так...
+12.  chown -R armarexpserver:armarexpserver /home/armarexpserver
     chown: changing ownership of '/home/armarexpserver/serverfiles/armarserver_config.json': Operation not permitted
 
 
