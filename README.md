@@ -191,3 +191,7 @@ https://docs.linuxgsm.com/configuration/linuxgsm-config
 11.  chown -R armarexpserver:armarexpserver /home/armarexpserver
     chown: changing ownership of '/home/armarexpserver/serverfiles/armarserver_config.json': Operation not permitted
 
+
+cd log/console
+ls
+смотрим последний файл лога и открываем его
