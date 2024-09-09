@@ -214,3 +214,7 @@ Monitoring armarserver: Querying port: gsquery: 127.0.0.1:null : 0/1: QUERYING
 
 `crontab -e`
 Для просмотра, что на расписании
+
+*/5 * * * * /home/armarserver/armarserver monitor > /dev/null 2>&1
+Для мониторинга каждые 5 минут
+
