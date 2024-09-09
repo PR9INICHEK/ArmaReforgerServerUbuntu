@@ -210,3 +210,7 @@ https://discord.com/channels/105462288051380224/976119935875026964/1281596036565
 
 Monitoring armarserver: Querying port: gsquery: 127.0.0.1:null : 0/1: QUERYING
   Возможно, что тут используют gsquery для мониторинга
+
+
+`crontab -e`
+Для просмотра, что на расписании
