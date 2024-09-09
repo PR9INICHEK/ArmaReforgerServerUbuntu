@@ -206,3 +206,7 @@ ls
 Вот тут пишут, что можно использовать службу для авторестарта при падении
 "You can then create new service for systemctl to run start.sh and the thing will run in the background and auto restart after crashes etc"
 https://discord.com/channels/105462288051380224/976119935875026964/1281596036565172306
+
+
+Monitoring armarserver: Querying port: gsquery: 127.0.0.1:null : 0/1: QUERYING
+  Возможно, что тут используют gsquery для мониторинга
