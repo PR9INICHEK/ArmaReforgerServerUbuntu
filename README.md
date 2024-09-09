@@ -200,3 +200,9 @@ https://docs.linuxgsm.com/configuration/linuxgsm-config
 cd log/console
 ls
 смотрим последний файл лога и открываем его
+
+
+
+Вот тут пишут, что можно использовать службу для авторестарта при падении
+"You can then create new service for systemctl to run start.sh and the thing will run in the background and auto restart after crashes etc"
+https://discord.com/channels/105462288051380224/976119935875026964/1281596036565172306
