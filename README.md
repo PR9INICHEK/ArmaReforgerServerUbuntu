@@ -218,6 +218,8 @@ Monitoring armarserver: Querying port: gsquery: 127.0.0.1:null : 0/1: QUERYING
 */5 * * * * /home/armarserver/armarserver monitor > /dev/null 2>&1
 Для мониторинга каждые 5 минут
 
+*/10 13-16 * * 4 /home/armarexpserver/armarserver update > /dev/null 2>&1
+Для обновления экспы по четвергам, в период с 13 по 16 МСК
 
 
 Автообновление сервера
