@@ -218,3 +218,10 @@ Monitoring armarserver: Querying port: gsquery: 127.0.0.1:null : 0/1: QUERYING
 */5 * * * * /home/armarserver/armarserver monitor > /dev/null 2>&1
 Для мониторинга каждые 5 минут
 
+
+
+Автообновление сервера
+Как понять, что обновление появилось
+  https://discord.com/channels/105462288051380224/976119935875026964/1283723270432231506
+  "I have a background process that monitors steamdb depots and rebuilds the docker image once a new update is made to the public branch"
+  "I get the information from steamctl --anonymous apps product_info APP_ID"
