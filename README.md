@@ -237,6 +237,8 @@ Monitoring armarserver: Querying port: gsquery: 127.0.0.1:null : 0/1: QUERYING
 bacon:
 > store the last known update time on disk somewhere and then simply compare it with the time of last update of the public branch, if its bigger then an update is available
 
+Возможно, что это надо делать из-за нюанса https://feedback.bistudio.com/T165526
+
 Marko: 
 > I just do it with install script, attempt update via steamcmd, whenever server starts/restarts.
 You could use cron to check steamdb for update every n time, and sigkill server should update be detected
