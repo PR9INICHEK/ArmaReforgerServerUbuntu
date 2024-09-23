@@ -233,3 +233,14 @@ Monitoring armarserver: Querying port: gsquery: 127.0.0.1:null : 0/1: QUERYING
     '1890870': 'Arma Reforger Experimental Server'
   }"
   "then examine depots.branches"
+
+bacon:
+> store the last known update time on disk somewhere and then simply compare it with the time of last update of the public branch, if its bigger then an update is available
+
+Marko: 
+> I just do it with install script, attempt update via steamcmd, whenever server starts/restarts.
+You could use cron to check steamdb for update every n time, and sigkill server should update be detected
+> If there is no update, steamcmd at launch will take like 5s to complete, making startup those 5s longer.
+
+JasonREDUX: 
+> my GitHub Actions build the docker image every week day 6AM and 6PM UTC time
