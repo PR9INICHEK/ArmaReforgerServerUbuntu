@@ -221,6 +221,10 @@ Monitoring armarserver: Querying port: gsquery: 127.0.0.1:null : 0/1: QUERYING
 */10 13-16 * * 4 /home/armarexpserver/armarserver update > /dev/null 2>&1
 Для обновления экспы по четвергам, в период с 13 по 16 МСК
 
+Для мониторинга экспы
+*/5 * * * * /home/armarexpserver/armarserver monitor > /dev/null 2>&1
+Но почему-то может не срабатывать
+
 
 Автообновление сервера
 Как понять, что обновление появилось
