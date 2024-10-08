@@ -251,3 +251,8 @@ You could use cron to check steamdb for update every n time, and sigkill server 
 JasonREDUX: 
 > my GitHub Actions build the docker image every week day 6AM and 6PM UTC time
 if there is an update in between i will trigger it manually i guess
+
+
+
+ПЕРЕДАЧА ФАЙЛОВ
+`python3 -m http.server`
