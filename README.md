@@ -258,3 +258,9 @@ if there is an update in between i will trigger it manually i guess
 ПЕРЕДАЧА ФАЙЛОВ
 
 `python3 -m http.server`
+
+
+
+
+Надо это попробовать
+https://community.bistudio.com/wiki/DayZ:Hosting_a_Linux_Server#As_Daemon_With_Restart_and_Auto-Update
