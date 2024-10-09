@@ -3,7 +3,17 @@
 **Алгоритм:**
 1. Получаем информацию из _steamdb depots_
     - Как это делать? С помощью curl?
-    - curl https://steamdb.info/app/1890870/depots/
+    - curl https://steamdb.info/app/1890870/depots/ или даже поточнее https://steamdb.info/app/1890870/depots/?branch=public
+        - Можно попробовать записать данные в файл и уже его обработать
+        - -o, --output <file>
+    - Либо узнать, что у Linux - 1890872 это айдишник depot'a
+    - И через https://steamdb.info/depot/1890872/history/?changeid=M:423549943600281364 получить данные
+        - Так наверное поточнее - https://steamdb.info/depot/1890872/history/
+    - https://stackoverflow.com/questions/3742983/how-to-get-the-contents-of-a-webpage-in-a-shell-variable
+    - >content=$(curl https://steamdb.info/depot/1890872/history/)
+echo $content
+
+    - https://www.scrapingbee.com/blog/web-scraping-with-linux-and-bash/
 3. Сохраняем часть из неё себе - чтобы получить версию и дату - текущая версия, что установлена у нас на сервере
 4. В дни, когда обычно обновления выходят, по расписанию делаем запрос в _steamdb depots_ и получаем данные
     - Можно попробовать в остальные дни иногда тоже запросы отправлять, в рабочее время разрабов. На всякий случай
