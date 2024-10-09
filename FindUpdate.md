@@ -21,7 +21,7 @@ echo $content
         - nano steam-depot.sh
         - bash steam-depot.sh OR ./steam-depot.sh
     - Может проще делать - https://steamdb.info/faq/#how-are-we-getting-this-information
-        - steam://open/console и указывать 1890870
+        - steam://open/console и указывать app_info_print  1890870
             - не ясно, может ли это вызвать аноним
 3. Сохраняем часть из неё себе - чтобы получить версию и дату - текущая версия, что установлена у нас на сервере
 4. В дни, когда обычно обновления выходят, по расписанию делаем запрос в _steamdb depots_ и получаем данные
