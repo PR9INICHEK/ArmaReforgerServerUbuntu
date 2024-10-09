@@ -226,34 +226,6 @@ Monitoring armarserver: Querying port: gsquery: 127.0.0.1:null : 0/1: QUERYING
 Но почему-то может не срабатывать
 
 
-Автообновление сервера
-Как понять, что обновление появилось
-  https://discord.com/channels/105462288051380224/976119935875026964/1283723270432231506
-  "I have a background process that monitors steamdb depots and rebuilds the docker image once a new update is made to the public branch"
-  "I get the information from steamctl --anonymous apps product_info APP_ID"
-  "where APP_ID is one of
-  {
-    '1874900': 'Arma Reforger Server', 
-    '1890870': 'Arma Reforger Experimental Server'
-  }"
-  "then examine depots.branches"
-
-bacon:
-> store the last known update time on disk somewhere and then simply compare it with the time of last update of the public branch, if its bigger then an update is available
-
-Возможно, что это надо делать из-за нюанса https://feedback.bistudio.com/T165526
-
-Marko: 
-> I just do it with install script, attempt update via steamcmd, whenever server starts/restarts.
-You could use cron to check steamdb for update every n time, and sigkill server should update be detected
-> If there is no update, steamcmd at launch will take like 5s to complete, making startup those 5s longer.
-
-JasonREDUX: 
-> my GitHub Actions build the docker image every week day 6AM and 6PM UTC time
-if there is an update in between i will trigger it manually i guess
-
-
-
 
 ПЕРЕДАЧА ФАЙЛОВ
 
