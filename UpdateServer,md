@@ -1,4 +1,6 @@
-Автообновление сервера
+ИДЕАЛЬНЫЙ ВАРИАНТ - https://feedback.bistudio.com/T179478
+
+**Автообновление сервера**
 Как понять, что обновление появилось
   https://discord.com/channels/105462288051380224/976119935875026964/1283723270432231506
   "I have a background process that monitors steamdb depots and rebuilds the docker image once a new update is made to the public branch"
