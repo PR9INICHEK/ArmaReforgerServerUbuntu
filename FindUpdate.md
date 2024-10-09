@@ -14,6 +14,12 @@
 echo $content
 
     - https://www.scrapingbee.com/blog/web-scraping-with-linux-and-bash/
+    - /path/to/your/scraper/script.sh или reddit.sh
+    - Создать папку для скрипта
+        - mkdir scripts
+        - cd scripts
+        - nano steam-depot.sh
+        - bash steam-depot.sh OR ./steam-depot.sh
 3. Сохраняем часть из неё себе - чтобы получить версию и дату - текущая версия, что установлена у нас на сервере
 4. В дни, когда обычно обновления выходят, по расписанию делаем запрос в _steamdb depots_ и получаем данные
     - Можно попробовать в остальные дни иногда тоже запросы отправлять, в рабочее время разрабов. На всякий случай
