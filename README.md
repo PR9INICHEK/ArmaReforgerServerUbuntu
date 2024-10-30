@@ -227,12 +227,5 @@ Monitoring armarserver: Querying port: gsquery: 127.0.0.1:null : 0/1: QUERYING
 
 
 
-ПЕРЕДАЧА ФАЙЛОВ
-
-`python3 -m http.server`
-
-
-
-
 Надо это попробовать
 https://community.bistudio.com/wiki/DayZ:Hosting_a_Linux_Server#As_Daemon_With_Restart_and_Auto-Update
