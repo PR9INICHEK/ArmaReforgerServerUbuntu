@@ -113,16 +113,6 @@ BACKEND      : Direct Join Code: 0625121340
 4. Смотрим файлы из неё, например console.log - nano console.log
 
 
-Настройка сервера:
-1. Создать нового пользователя
-2. Выдать ему root права
-3. Выключить root пользователя
-4. Настроить подключение через ключи доступа
-5. 
-
-
-
-
 LGSM
 https://linuxgsm.com/servers/armarserver/#v-pills-install
 
