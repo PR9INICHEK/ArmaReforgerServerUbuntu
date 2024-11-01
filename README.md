@@ -19,9 +19,9 @@ TODO
 
 ? А может логи и конфиги сервера хранить в папке, что по умолчанию создаются
 
-cd /home/steam/.steam/steam/arma-reforger-server
+`cd /home/steam/.steam/steam/arma-reforger-server`
 Тут создаю скрытую папку .profile
-  mkdir .profile
+  `mkdir .profile`
 
 
 
@@ -31,7 +31,7 @@ steam после home это имя пользователя - поэтому в
   
 ? Тут может создавать папку game-servers и уже остальные будут подпапками
 
-mkdir arma-reforger
+`mkdir arma-reforger`
   server-data
     stable
     exp
@@ -41,23 +41,23 @@ mkdir arma-reforger
     stable
   bats
     start-server.txt
-      cd /home/steam/arma-reforger/server-data/
-      ./ArmaReforgerServer -config /home/steam/arma-reforger/configs/Conflict.json -profile /home/steam/arma-reforger/profiles/stable
+      `cd /home/steam/arma-reforger/server-data/`
+      `./ArmaReforgerServer -config /home/steam/arma-reforger/configs/Conflict.json -profile /home/steam/arma-reforger/profiles/stable`
 
 Выше можно экспу просто в отдельную папку отдать - armarserverexp
 
 
-force_install_dir /home/steam/arma-reforger/server-data
-login anonymous
-app_update 1874900 validate
+`force_install_dir /home/steam/arma-reforger/server-data`
+`login anonymous`
+`app_update 1874900 validate`
 
 
 Запуск сервера:
-1. cd /home/steam/arma-reforger/bats/; bash start-server.txt
+1. `cd /home/steam/arma-reforger/bats/; bash start-server.txt`
    
 
 
-bash start-server.txt
+`bash start-server.txt`
   ? Как передавать путь к этому файлу, чтобы запускать его из любого места
 
 
