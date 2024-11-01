@@ -83,19 +83,10 @@ steam после home это имя пользователя - поэтому в
 
 
 
+`mkdir reforger`
+`force_install_dir ./reforger/`
 
-
-
-
-Остальное:
-Для удаления папок и файлов внутри
-  rm -rf reforger
-
-
-mkdir reforger
-force_install_dir ./reforger/
-
-force_install_dir ./armar_ds/
+`force_install_dir ./armar_ds/`
 
 
 Надо создать аналог update_armar_ds.txt для запуска сервера
