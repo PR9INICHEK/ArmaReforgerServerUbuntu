@@ -44,7 +44,7 @@ steam после home это имя пользователя - поэтому в
       `cd /home/steam/arma-reforger/server-data/`
       `./ArmaReforgerServer -config /home/steam/arma-reforger/configs/Conflict.json -profile /home/steam/arma-reforger/profiles/stable`
 
-Выше можно экспу просто в отдельную папку отдать - armarserverexp
+Выше можно экспу просто в отдельную папку отдать - **armarserverexp**
 
 
 `force_install_dir /home/steam/arma-reforger/server-data`
