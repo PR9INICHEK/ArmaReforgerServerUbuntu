@@ -20,8 +20,8 @@ TODO
 ? А может логи и конфиги сервера хранить в папке, что по умолчанию создаются
 
 `cd /home/steam/.steam/steam/arma-reforger-server`
-Тут создаю скрытую папку .profile
-  `mkdir .profile`
+
+Тут создаю скрытую папку _.profile_ - `mkdir .profile`
 
 
 
