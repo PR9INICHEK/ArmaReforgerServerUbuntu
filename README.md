@@ -178,8 +178,8 @@ https://docs.linuxgsm.com/configuration/linuxgsm-config
 
 
 
-cd log/console
-ls
+`cd log/console`
+`ls`
 смотрим последний файл лога и открываем его
 
 
