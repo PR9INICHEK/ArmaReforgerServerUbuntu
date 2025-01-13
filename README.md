@@ -213,4 +213,3 @@ https://community.bistudio.com/wiki/DayZ:Hosting_a_Linux_Server#As_Daemon_With_R
 
 
 https://snapcraft.io/gswatcher
-
