@@ -18,7 +18,8 @@
    - `sudo apt install steamcmd`
       - https://community.bistudio.com/wiki/Arma_Reforger:Server_Hosting#With_Bash_Scripts
 7. (Опционально) Создать папку, куда будем складывать файлы сервера
-   - по умолчанию Steam сам создаст папку по пути ``
+   - по умолчанию Steam сам создаст папку по пути `home/<имя пользователя>/.steam/steam/steamcmd`
+      - https://steamcommunity.com/app/544550/discussions/0/1621724915788946077/#c3140616601475537134
 8. 
 9.
 10.
