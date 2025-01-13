@@ -1,39 +1,13 @@
 {
-	"bindAddress": "",
-	"bindPort": 0,
-	"publicAddress": "",
-	"publicPort": 0,
-	"a2s": {
-		"address": "",
-		"port": 0
-	},
-	"rcon": {
-		"address": "",
-		"port": 0,
-		"password": "",
-		"permission": "monitor",
-		"blacklist": [],
-		"whitelist": []
-	},
 	"game": {
-		"name": "",
-		"password": "",
-		"passwordAdmin": "",
+		"name": "ЧЕБУРЕЧНАЯ | MOSCOW | https://t.me/msk_cheburek",
+		"passwordAdmin": "changeme",
 		"admins" : [],
-		"scenarioId": "",
-		"maxPlayers": 0,
-		"visible": true,
+		"scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
+		"maxPlayers": 48,
+		"crossPlatform": true,
 		"gameProperties": {
-			"serverMaxViewDistance": 0,
-			"serverMinGrassDistance": 0,
-			"networkViewDistance": 0,
-			"disableThirdPerson": false,
-			"fastValidation": true,
-			"battlEye": true,
-			"VONDisableUI": false,
-			"VONDisableDirectSpeechUI": false,
-			"VONCanTransmitCrossFaction": false
-		},
-		"mods": []
+			"serverMinGrassDistance": 50
+		}
 	}
 }
