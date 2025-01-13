@@ -1,7 +1,7 @@
 {
 	"game": {
-		"name": "ЧЕБУРЕЧНАЯ | MOSCOW | https://t.me/msk_cheburek",
-		"passwordAdmin": "changeme",
+		"name": "SERVER_NAME - CHANGE_ME",
+		"passwordAdmin": "CHANGE_ME",
 		"admins" : [],
 		"scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
 		"maxPlayers": 48,
