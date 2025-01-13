@@ -33,11 +33,11 @@
    - `cd /home/<имя пользователя>/<путь до папки>`
       - Например, `cd server-files`
 14. Запускаем тестово сервер, чтобы проверить, что все файлы подтянулись и данные пишутся в нужные папки
-   - `./ArmaReforgerServer -config /home/<username>/<путь до папки с конфигом>/config.json -logsDir /home/<username>/<путь до папки с логами> -maxFPS 60`
-      - Например, `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs -maxFPS 60`
+    - `./ArmaReforgerServer -config /home/<username>/<путь до папки с конфигом>/config.json -logsDir /home/<username>/<путь до папки с логами> -maxFPS 60`
+       - Например, `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs -maxFPS 60`
 14. 
 15. Поддерживать консоль для сервера, чтобы он не выключался
-    - tmux attach || tmux new
+    - `tmux attach || tmux new`
 16.
 17.
 18. 
