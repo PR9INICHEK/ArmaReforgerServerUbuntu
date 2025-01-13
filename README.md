@@ -1,7 +1,7 @@
 `tmux attach || tmux new`
 
 
-TODO
+**TODO**
 1. При закрытии окна подключения сервер выключается
    - Тут рекомендуют Docker - https://www.reddit.com/r/admincraft/comments/1ags04e/how_to_continue_running_the_server_on_my_vps/
    - https://habr.com/ru/articles/126996/
@@ -10,7 +10,8 @@ TODO
 6. Настроить обновление сервера по крону, начать с экспериментального
 
 
-Шаги, что выполнял для запуска сервера
+
+**Шаги, что выполнял для запуска сервера**
 1. Выполнял шаги из https://developer.valvesoftware.com/wiki/SteamCMD#Linux
 2. Надо было только ещё дополнительно выполнить команду `sudo adduser steam sudo` из https://askubuntu.com/a/1414685
 3. Потом потребовалось выполнить PATH=$PATH:/usr/games из https://forums.linuxmint.com/viewtopic.php?p=1245194&sid=01cf5aabb486e1cad3e79d52183511a4#p1245194
@@ -47,11 +48,6 @@ steam после home это имя пользователя - поэтому в
 Выше можно экспу просто в отдельную папку отдать - **armarserverexp**
 
 
-`force_install_dir /home/steam/arma-reforger/server-data`
-`login anonymous`
-`app_update 1874900 validate`
-
-
 Запуск сервера:
 1. `cd /home/steam/arma-reforger/bats/; bash start-server.txt`
    
@@ -63,7 +59,7 @@ steam после home это имя пользователя - поэтому в
 
 
 
-Установка экспериментального сервера:
+# Установка экспериментального сервера:
 1. steamcmd
 2. force_install_dir /home/steam/arma-reforger/server-data/exp
 3. login anonymous
@@ -95,7 +91,7 @@ steam после home это имя пользователя - поэтому в
 ??? Может нарисовать эту структуру, где что лежит
 И может не стоит запариваться и для данных сервера задавать отдельную папку
 
-TODO Улучшить инструкцию https://community.bistudio.com/wiki/Arma_Reforger:Server_Hosting, чтобы все свои ошибки учесть для будущих ребят
+**TODO** Улучшить инструкцию https://community.bistudio.com/wiki/Arma_Reforger:Server_Hosting, чтобы все свои ошибки учесть для будущих ребят
 
 
 
@@ -113,7 +109,7 @@ BACKEND      : Direct Join Code: 0625121340
 4. Смотрим файлы из неё, например console.log - nano console.log
 
 
-LGSM
+_LGSM_
 https://linuxgsm.com/servers/armarserver/#v-pills-install
 
 https://linuxgsm.com/servers/armarserver/
@@ -159,7 +155,7 @@ https://docs.linuxgsm.com/configuration/linuxgsm-config
 
 
 
-Для экспы
+# Для экспы
 1. sudo adduser armarexpserver
 2. sudo adduser armarexpserver sudo
 3. su - armarexpserver
