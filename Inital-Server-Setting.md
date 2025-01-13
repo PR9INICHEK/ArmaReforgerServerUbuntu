@@ -37,6 +37,7 @@
       - Например, `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs -maxFPS 60`
 14. 
 15. Поддерживать консоль для сервера, чтобы он не выключался
+    - tmux attach || tmux new
 16.
 17.
 18. 
