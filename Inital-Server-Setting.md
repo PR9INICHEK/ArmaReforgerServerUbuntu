@@ -14,6 +14,7 @@
 3. Перейти в папку _home_
    - `cd ~` или `cd /home/<имя пользователя>`
 4. Установить steamcmd
+   - `sudo add-apt-repository multiverse; sudo dpkg --add-architecture i386; sudo apt update`
    - `sudo apt install steamcmd`
       - https://community.bistudio.com/wiki/Arma_Reforger:Server_Hosting#With_Bash_Scripts
 7.
