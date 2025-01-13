@@ -28,10 +28,10 @@
 11. Создаём папку, куда будем складывать логи
     - `mkdir logs` 
 12. Создаём файл с настройками сервера
-    - `nano Conflict.json`
+    - `nano conflict.json`
 13. Запускаем тестово сервер, чтобы проверить, что все файлы подтянулись и данные пишутся в нужные папки
    - `./ArmaReforgerServer -config /home/<username>/.config/ArmaReforgerServer/config.json -logsDir /home/<username>/.config/ArmaReforgerServer -maxFPS 60`
-      - Например, `./ArmaReforgerServer -config /home/armarserver/config.json -logsDir /home/armarserver/logs -maxFPS 60`
+      - Например, `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs -maxFPS 60`
 14. 
 15. 
 16.
