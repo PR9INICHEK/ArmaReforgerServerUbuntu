@@ -20,17 +20,16 @@
    - `steamcmd`
 8. Создать папку, куда будем складывать файлы сервера
    - `force_install_dir /home/<имя пользователя>/<путь до папки>`
-      - Например, `force_install_dir /home/<имя пользователя>/server-files`
-9. 
-`login anonymous`
-`app_update 1874900 validate`
-   - по умолчанию Steam сам создаст папку по пути `home/<имя пользователя>/.steam/steam/steamcmd`
-      - https://steamcommunity.com/app/544550/discussions/0/1621724915788946077/#c3140616601475537134
-10. 
-11.
+      - Например, `force_install_dir /home/armarserver/server-files`
+9. Авторизуемся из под анонима
+   - `login anonymous`
+10. Скачиваем серверные файлы
+   - `app_update 1874900 validate`
+11. 
 12.
 13.
 14.
-15. Установить сервер
-16. Выключить root пользователя
-17. Настроить подключение через SSH
+15.
+16. Установить сервер
+17. Выключить root пользователя
+18. Настроить подключение через SSH
