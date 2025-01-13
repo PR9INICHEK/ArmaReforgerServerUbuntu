@@ -24,11 +24,11 @@
 9. Авторизуемся из под анонима
    - `login anonymous`
 10. Скачиваем серверные файлы
-   - `app_update 1874900 validate`
+    - `app_update 1874900 validate`
 11. Создаём папку, куда будем складывать логи
-   - `mkdir profiles` 
+    - `mkdir profiles` 
 12. Создаём файл с настройками сервера
-   - `Conflict.json`
+    - `Conflict.json`
 13. Что-то ещё делаем
 14.
 15.
