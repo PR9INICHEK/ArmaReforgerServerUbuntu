@@ -13,8 +13,10 @@
    - Например, `sudo -u armarserver -s`
 3. Перейти в папку _home_
    - `cd ~` или `cd /home/<имя пользователя>`
-4.
-5.
-6. Установить сервер
-7. Выключить root пользователя
-8. Настроить подключение через SSH
+4. Установить steamcmd
+   - `sudo apt install steamcmd`
+      - https://community.bistudio.com/wiki/Arma_Reforger:Server_Hosting#With_Bash_Scripts
+7.
+8. Установить сервер
+9. Выключить root пользователя
+10. Настроить подключение через SSH
