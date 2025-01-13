@@ -36,9 +36,9 @@
    - `./ArmaReforgerServer -config /home/<username>/<путь до папки с конфигом>/config.json -logsDir /home/<username>/<путь до папки с логами> -maxFPS 60`
       - Например, `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs -maxFPS 60`
 14. 
-15. 
+15. Поддерживать консоль для сервера, чтобы он не выключался
 16.
 17.
-18. Установить сервер
+18. 
 19. Выключить root пользователя
 20. Настроить подключение через SSH
