@@ -26,11 +26,12 @@
 10. Скачиваем серверные файлы
     - `app_update 1874900 validate`
 11. Создаём папку, куда будем складывать логи
-    - `mkdir profiles` 
+    - `mkdir logs` 
 12. Создаём файл с настройками сервера
     - `nano Conflict.json`
 13. Запускаем тестово сервер, чтобы проверить, что все файлы подтянулись и данные пишутся в нужные папки
-   - `-logsDir`
+   - `./ArmaReforgerServer -config /home/<username>/.config/ArmaReforgerServer/config.json -logsDir /home/<username>/.config/ArmaReforgerServer -maxFPS 60`
+      - Например, `./ArmaReforgerServer -config /home/armarserver/config.json -logsDir /home/armarserver/logs -maxFPS 60`
 14. 
 15. 
 16.
