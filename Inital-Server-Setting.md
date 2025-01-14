@@ -61,9 +61,9 @@
 1. `nano start.sh`
    - `dir_name=date +%Y-%m-%d_%H-%M-%S`
    - `cd logs`
-   - `mkdir dir_name`
+   - `mkdir $(dir_name)`
    - `cd server-files`
-   - `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs -maxFPS 60 -logStats 60000`      
+   - `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs/$(dir_name) -maxFPS 60 -logStats 60000`      
 2. `chmod a+x start.sh`
    - https://help.ubuntu.com/community/Beginners/BashScripting
 3. Создаём папку под логи
