@@ -72,7 +72,7 @@
    - `# Start server`
    - `cd ..`
    - `cd server-files`
-   - `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs/$LOGS_DIR -profile  -maxFPS 60 -logStats 60000`      
+   - `./ArmaReforgerServer -config ~/conflict.json -logsDir ~/logs/$dir_name -profile ~/profile -maxFPS 60 -logStats 60000`
 3. `chmod a+x start.sh`
    - https://help.ubuntu.com/community/Beginners/BashScripting
 4. `./start.sh`
@@ -90,3 +90,4 @@
 1. https://community.bistudio.com/wiki/Arma_Reforger:Server_Hosting
 2. https://community.bistudio.com/wiki/Arma_Reforger:Startup_Parameters
 3. https://community.bistudio.com/wiki/DayZ:Hosting_a_Linux_Server#As_Daemon_With_Restart_and_Auto-Update
+4. https://discord.com/channels/105462288051380224/976119935875026964/976247538153848832
