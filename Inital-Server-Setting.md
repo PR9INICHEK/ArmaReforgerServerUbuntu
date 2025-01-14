@@ -69,7 +69,7 @@
    - `mkdir $dir_name`
    - `cd ..`
    - `cd server-files`
-   - `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs/$(dir_name) -maxFPS 60 -logStats 60000`      
+   - `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs/$dir_name -profile /home/armarserver/profile -maxFPS 60 -logStats 60000`      
 3. `chmod a+x start.sh`
    - https://help.ubuntu.com/community/Beginners/BashScripting
 4. `./start.sh`
