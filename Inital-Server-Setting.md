@@ -57,8 +57,11 @@
 1. `nano start.sh`
    - `cd server-files`
    - `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs -maxFPS 60 -logStats 60000`
-2. 
+2. Создаём папку под логи
+   - `cd logs`
+   - `mkdir $(date +%Y-%m-%d_%H-%M-%S)`
 3. 
+4. 
 
 
 
