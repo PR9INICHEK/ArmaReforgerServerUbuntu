@@ -67,13 +67,12 @@
    - `dir_name=$(date +%Y-%m-%d_%H-%M-%S)`
    - `cd logs`
    - `mkdir $dir_name`
+   - `cd ..`
    - `cd server-files`
    - `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs/$(dir_name) -maxFPS 60 -logStats 60000`      
 3. `chmod a+x start.sh`
    - https://help.ubuntu.com/community/Beginners/BashScripting
-4. Создаём папку под логи
-   - `cd logs`
-   - `mkdir $(date +%Y-%m-%d_%H-%M-%S)`
+4. `./start.sh`
 5. 
 6. 
 
