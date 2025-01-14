@@ -64,12 +64,15 @@
 ## Создаём простой скрипт для запуска сервера
 ??? Разбить на два скрипта: Один создаёт папку под логи, а другой запускает сервер
 1. `nano start.sh`
-   - `dir_name=$(date +%Y-%m-%d_%H-%M-%S)`
+   - `#!/bin/bash`
+   - `# Create folder for logs`
+   - `LOGS_DIR=$(date +%Y-%m-%d_%H-%M-%S)`
    - `cd logs`
-   - `mkdir $dir_name`
+   - `mkdir $LOGS_DIR`
+   - `# Start server`
    - `cd ..`
    - `cd server-files`
-   - `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs/$(dir_name) -maxFPS 60 -logStats 60000`      
+   - `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs/$LOGS_DIR -profile  -maxFPS 60 -logStats 60000`      
 3. `chmod a+x start.sh`
    - https://help.ubuntu.com/community/Beginners/BashScripting
 4. `./start.sh`
