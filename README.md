@@ -202,10 +202,4 @@ Monitoring armarserver: Querying port: gsquery: 127.0.0.1:null : 0/1: QUERYING
 */5 * * * * /home/armarexpserver/armarserver monitor > /dev/null 2>&1
 Но почему-то может не срабатывать
 
-
-
-Надо это попробовать
-https://community.bistudio.com/wiki/DayZ:Hosting_a_Linux_Server#As_Daemon_With_Restart_and_Auto-Update
-
-
 https://snapcraft.io/gswatcher
