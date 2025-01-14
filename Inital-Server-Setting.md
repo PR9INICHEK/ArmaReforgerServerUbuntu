@@ -53,7 +53,10 @@
 
 ## Создаём простой скрипт для запуска сервера
 1. `nano start.sh`
+   - `cd server-files`
+   - `./ArmaReforgerServer -config /home/armarserver/conflict.json -logsDir /home/armarserver/logs -maxFPS 60 -logStats 60000`
 2. 
+3. 
 
 
 
