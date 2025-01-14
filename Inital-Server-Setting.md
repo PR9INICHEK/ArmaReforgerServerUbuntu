@@ -53,7 +53,7 @@
     - https://feedback.bistudio.com/T178172
     - Проверял через **create-folder.sh**, выдав ему права на создание папок - `chmod a+x create-folder.sh`
        - `cd logs`
-         `mkdir $(date +%Y-%m-%d_%H-%M-%S)`
+       - `mkdir $(date +%Y-%m-%d_%H-%M-%S)`
 
 
 
