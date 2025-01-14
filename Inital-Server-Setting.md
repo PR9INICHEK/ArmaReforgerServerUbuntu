@@ -54,8 +54,7 @@
     - Проверял через **create-folder.sh**, выдав ему права на создание папок - `chmod a+x create-folder.sh`
        - `cd logs`
        - `mkdir $(date +%Y-%m-%d_%H-%M-%S)`
-
-Проверял на таком скрипте
+    - Создание переменной проверял на таком скрипте
        - `dir_name=$(date +%Y-%m-%d_%H-%M-%S)`
        - `echo $dir_name`
 
