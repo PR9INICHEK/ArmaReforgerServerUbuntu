@@ -48,9 +48,9 @@
     - `tmux attach || tmux new`
 16.
 17. Создавать папку под время и дату запуска сервера
-   - `mkdir $(date +%Y%m%d_%H%M%S)` - https://askubuntu.com/questions/715431/mkdir-with-date-name
-      - `date +%Y_%m_%d_%H_%M_%S` - https://stackoverflow.com/a/13732246
-   - https://feedback.bistudio.com/T178172
+    - `mkdir $(date +%Y%m%d_%H%M%S)` - https://askubuntu.com/questions/715431/mkdir-with-date-name
+       - `date +%Y_%m_%d_%H_%M_%S` - https://stackoverflow.com/a/13732246
+    - https://feedback.bistudio.com/T178172
 
 
 ## Создаём простой скрипт для запуска сервера
