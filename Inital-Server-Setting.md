@@ -51,6 +51,10 @@
     - `mkdir $(date +%Y%m%d_%H%M%S)` - https://askubuntu.com/questions/715431/mkdir-with-date-name
        - `date +%Y_%m_%d_%H_%M_%S` - https://stackoverflow.com/a/13732246
     - https://feedback.bistudio.com/T178172
+    - Проверял через **create-folder.sh**, выдав ему права на создание папок - `chmod a+x create-folder.sh`
+       - `cd logs`
+         `mkdir $(date +%Y-%m-%d_%H-%M-%S)`
+
 
 
 ## Создаём простой скрипт для запуска сервера
