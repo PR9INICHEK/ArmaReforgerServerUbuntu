@@ -37,9 +37,3 @@
 4. `./start.sh`
 5. 
 6. 
-
-
-
-## Полезные ссылки
-1. https://community.bistudio.com/wiki/Arma_Reforger:Server_Hosting
-2. https://community.bistudio.com/wiki/Arma_Reforger:Startup_Parameters
