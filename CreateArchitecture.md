@@ -17,3 +17,6 @@
         - `#!/bin/bash`
         - `steamcmd +force_install_dir ~/server-files +login anonymous +app_update 1874900 +quit`
 7. 
+
+# Полезные ссылки
+1. 
