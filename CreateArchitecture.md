@@ -8,6 +8,7 @@
 4. Переносим в него инфу из файла [conflict.json](conflict.json)
 5. Создаём файл с настройками запуска
     - `nano start.sh`
+        - `#!/bin/bash`
         - `# Start server`
         - `cd server-files`
         - `./ArmaReforgerServer -config ~/conflict.json -profile ~/profile -maxFPS 60 -logStats 60000`
