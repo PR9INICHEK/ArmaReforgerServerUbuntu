@@ -21,7 +21,9 @@
 8. Создаём конфиг для службы
     - `sudo nano /etc/systemd/system/arma-server.service`
     - Берём данные с [конфига](ServiceConfig.ini)
-9. 
+9. Перезапускаем **FIX-ME**, чтобы новая служба добавилась
+    - `sudo systemctl daemon-reload`
+10. 
 
 # Полезные ссылки
 1. https://community.bistudio.com/wiki/Arma_Reforger:Server_Hosting
