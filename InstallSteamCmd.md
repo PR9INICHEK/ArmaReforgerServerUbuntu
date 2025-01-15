@@ -14,3 +14,6 @@
    - `login anonymous`
 6. Скачиваем серверные файлы
     - `app_update 1874900 validate`
+
+# Полезные ссылки
+1. https://developer.valvesoftware.com/wiki/SteamCMD
