@@ -43,5 +43,3 @@
 ## Полезные ссылки
 1. https://community.bistudio.com/wiki/Arma_Reforger:Server_Hosting
 2. https://community.bistudio.com/wiki/Arma_Reforger:Startup_Parameters
-3. https://community.bistudio.com/wiki/DayZ:Hosting_a_Linux_Server#As_Daemon_With_Restart_and_Auto-Update
-4. https://discord.com/channels/105462288051380224/976119935875026964/976247538153848832
