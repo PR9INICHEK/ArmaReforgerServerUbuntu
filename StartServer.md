@@ -9,6 +9,6 @@
     - `cd /home/<имя пользователя>/<путь до папки>`
         - Например, `cd server-files`
 2. Запускаем тестово сервер, чтобы проверить, что все файлы подтянулись и данные пишутся в нужные папки
-    - `./ArmaReforgerServer -config /home/<username>/<путь до папки с конфигом>/config.json -logsDir /home/<username>/<путь до папки с логами> -maxFPS 60`
-       - Например, `./ArmaReforgerServer -config ~/conflict.json -logsDir ~/logs -maxFPS 60 -logStats 60000`
+    - `./ArmaReforgerServer -config /home/<username>/<путь до папки с конфигом>/config.json -profile /home/<username>/<путь до папки профил> -maxFPS 60`
+       - Например, `./ArmaReforgerServer -config ~/conflict.json -profile ~/profile -maxFPS 60 -logStats 60000`
 3. 
