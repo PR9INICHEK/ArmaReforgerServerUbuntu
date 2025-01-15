@@ -81,11 +81,6 @@
 
 
 
-
-18. Выключить root пользователя
-19. Настроить подключение через SSH
-
-
 ## Полезные ссылки
 1. https://community.bistudio.com/wiki/Arma_Reforger:Server_Hosting
 2. https://community.bistudio.com/wiki/Arma_Reforger:Startup_Parameters
