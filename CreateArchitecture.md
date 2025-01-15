@@ -18,7 +18,10 @@
         - `steamcmd +force_install_dir ~/server-files +login anonymous +app_update 1874900 +quit`
 7. Выдаём ему права на изменение файлов
     - `sudo chmod +x ~/update.sh`
-8. 
+8. Создаём конфиг для службы
+    - `sudo nano /etc/systemd/system/dayz-server.service`
+    - 
+9. 
 
 # Полезные ссылки
 1. 
