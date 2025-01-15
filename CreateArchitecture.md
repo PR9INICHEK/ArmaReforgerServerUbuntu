@@ -9,7 +9,6 @@
 5. Создаём файл с настройками запуска
     - `nano start.sh`
         - `# Start server`
-        - `cd ..`
         - `cd server-files`
         - `./ArmaReforgerServer -config ~/conflict.json -profile ~/profile -maxFPS 60 -logStats 60000`
 6. 
