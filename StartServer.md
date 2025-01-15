@@ -12,3 +12,16 @@
     - `./ArmaReforgerServer -config /home/<username>/<путь до папки с конфигом>/config.json -profile /home/<username>/<путь до папки профил> -maxFPS 60`
        - Например, `./ArmaReforgerServer -config ~/conflict.json -profile ~/profile -maxFPS 60 -logStats 60000`
 3. 
+
+
+## Другие команды если используем сервис
+1. `sudo systemctl enable arma-server` - Enables server autostart when the OS starts.
+2. `sudo systemctl disable arma-server` - Disables server autostart when the OS starts.
+3. `sudo systemctl start arma-server` - Starting the server.
+4. `sudo systemctl restart arma-server` - Restarting the server.
+5. `sudo systemctl stop arma-server` - Stopping the server.
+6. `sudo systemctl status arma-server` - Checking the server status.
+
+
+# Полезные ссылки
+1. https://community.bistudio.com/wiki/DayZ:Hosting_a_Linux_Server#As_Daemon_With_Restart_and_Auto-Update
