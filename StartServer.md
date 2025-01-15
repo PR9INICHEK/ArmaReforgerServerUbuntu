@@ -1,3 +1,6 @@
+# Запуск сервера как сервиса(службы)
+1. `sudo systemctl start arma-server`
+
 # Запуск сервера
 1. `./start.sh`
 
