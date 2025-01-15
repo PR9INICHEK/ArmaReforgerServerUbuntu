@@ -15,5 +15,5 @@
 6. Создаём скрипт для обновления серверных файлов
     - `nano update.sh`
         - `#!/bin/bash`
-        - 
+        - `steamcmd +force_install_dir ~/server-files +login anonymous +app_update 1874900 +quit`
 7. 
