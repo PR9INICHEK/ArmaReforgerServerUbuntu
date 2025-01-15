@@ -15,7 +15,7 @@
 6. Создаём скрипт для обновления серверных файлов
     - `nano update.sh`
         - `#!/bin/bash`
-        - `steamcmd +force_install_dir ~/server-files +login anonymous +app_update 1874900 +quit`
+        - `/home/armarserver/.steam/steam/steamcmd/steamcmd.sh +force_install_dir ~/server-files +login anonymous +app_update 1874900 +quit`
 7. Выдаём ему права на изменение файлов
     - `sudo chmod +x ~/update.sh`
 8. Создаём конфиг для службы
