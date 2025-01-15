@@ -3,6 +3,8 @@
    - `sudo useradd -m <имя пользователя>`
       - Например, `sudo useradd -m armarserver`
    - ? Почему-то не получается сразу с этой командой выполнить `-p <пароль>`
+   - Рекомендуют `sudo useradd -s /bin/sh -m arma`
+      - https://discord.com/channels/105462288051380224/976119935875026964/976247538153848832
 2. Установить пароль
    - `sudo passwd <имя пользователя>`
       - Например, `sudo passwd armarserver`
