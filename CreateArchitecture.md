@@ -19,8 +19,8 @@
 7. Выдаём ему права на изменение файлов
     - `sudo chmod +x ~/update.sh`
 8. Создаём конфиг для службы
-    - `sudo nano /etc/systemd/system/dayz-server.service`
-    - 
+    - `sudo nano /etc/systemd/system/arma-server.service`
+    - Берём данные с [конфига](ServiceConfig.ini)
 9. 
 
 # Полезные ссылки
