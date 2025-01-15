@@ -72,8 +72,8 @@
    - `# Start server`
    - `cd ..`
    - `cd server-files`
-   - `./ArmaReforgerServer -config ~/conflict.json -logsDir ~/logs/$dir_name -profile ~/profile -maxFPS 60 -logStats 60000`
-      - Похож, что **-logsDir** можно не использовать
+   - `./ArmaReforgerServer -config ~/conflict.json -profile ~/profile -maxFPS 60 -logStats 60000`
+      - Похоже, что **-logsDir** можно не использовать
          - https://discord.com/channels/105462288051380224/976119935875026964/1328791399721861242
 3. `chmod a+x start.sh`
    - https://help.ubuntu.com/community/Beginners/BashScripting
