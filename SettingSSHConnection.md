@@ -3,7 +3,8 @@
    - `mkdir -p ~/.ssh && chmod 700 ~/.ssh`
 2. Создаём файл _authorized_keys_, в котором будем хранить публичный ключ и выдаём ему нужные права доступа
    - `touch ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys`
-3. 
+3. `cd .ssh`
+4. `nano authorized_keys`
 
 
 # Полезные ссылки
