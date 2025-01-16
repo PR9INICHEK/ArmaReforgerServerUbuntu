@@ -5,3 +5,4 @@
 4. [Установка steamcmd](InstallSteamCmd.md)
 5. [Создание архитектуры под сервер](CreateArchitecture.md)
 7. [Запуск сервера](StartServer.md)
+8. Настройка получения информации о сервере через Discord/Telegram
