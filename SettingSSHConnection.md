@@ -4,6 +4,7 @@
    - `mkdir -p ~/.ssh && chmod 700 ~/.ssh`
 3. Создаём файл _authorized_keys_, в котором будем хранить публичный ключ и выдаём ему нужные права доступа
    - `touch ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys`
+      - Побольше об этой команде - https://phoenixnap.com/kb/touch-command-in-linux
 4. `cd .ssh`
 5. `nano authorized_keys`
 6. Переносим данные **публичного** ключа в файл
