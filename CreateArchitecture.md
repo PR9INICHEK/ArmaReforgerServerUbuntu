@@ -14,6 +14,7 @@
         - `./ArmaReforgerServer -config ~/conflict.json -profile ~/profile -maxFPS 60 -logStats 60000`
             - Используем параметр [-keepNumOfLogs](https://community.bistudio.com/wiki/Arma_Reforger:Startup_Parameters#keepNumOfLogs) если нам нужно хранить логов больше 10 штук
                 -  Такое обычно требуется, если происходит отказ Мастер-сервера у Армы и нужно разобраться, сколько раз перезагружался сервер. Но это не точно
+                -  Скорее всего это можно сделать иным способом, да и вряд ли это требуется вообще выяснять
 6. Создаём скрипт для обновления серверных файлов
     - `nano update.sh`
         - `#!/bin/bash`
