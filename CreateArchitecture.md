@@ -5,7 +5,7 @@
     - `cd ..` или `cd ~`
 3. Создаём файл с настройками сервера
     - `nano conflict.json`
-4. Переносим в него инфу из файла [conflict.json](conflict.json)
+4. Переносим в него инфу из файла [conflict.json](server-files/conflict.json)
 5. Создаём скрипт с настройками запуска
     - `nano start.sh`
         - `#!/bin/bash`
@@ -23,7 +23,7 @@
     - `sudo chmod +x ~/update.sh`
 8. Создаём конфиг для службы
     - `sudo nano /etc/systemd/system/arma-server.service`
-    - Берём данные с [конфига](ServiceConfig.ini)
+    - Берём данные с [конфига](server-files/ServiceConfig.ini)
 9. Перезапускаем **FIX-ME**, чтобы новая служба добавилась
     - `sudo systemctl daemon-reload`
 10. 
