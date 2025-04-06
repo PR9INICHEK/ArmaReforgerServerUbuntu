@@ -8,7 +8,9 @@
    - Будет конфликт, возможно, что проще решить через **cron** - https://stackoverflow.com/a/49527283
 
 4. `crontab -e`
-5. 
+5. `0 6 * * * /bin/systemctl try-restart arma-server`
+   - Для перезапуска в 6 утра каждого дня
+6. 
 
 
 # Полезные ссылки
