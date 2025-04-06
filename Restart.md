@@ -5,7 +5,7 @@
    - _Restart=always_
    - _RuntimeMaxSec=7d_
 3. ? Сейчас там указан _Restart=on-failure_
-   - Будет конфликт, возможно, что проще решить через **cron**
+   - Будет конфликт, возможно, что проще решить через **cron** - https://stackoverflow.com/a/49527283
 
 
 # Полезные ссылки
