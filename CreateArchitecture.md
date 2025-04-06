@@ -15,6 +15,7 @@
             - Используем параметр [-keepNumOfLogs](https://community.bistudio.com/wiki/Arma_Reforger:Startup_Parameters#keepNumOfLogs) если нам нужно хранить логов больше 10 штук
                 -  Такое обычно требуется, если происходит отказ Мастер-сервера у Армы и нужно разобраться, сколько раз перезагружался сервер. Но это не точно
                 -  Скорее всего это можно сделать иным способом, да и вряд ли это требуется вообще выяснять
+            - Используем параметр [-logTime](https://community.bistudio.com/wiki/Arma_Reforger:Startup_Parameters#logTime) если нам нужна дата, помимо времени у логов
 6. Создаём скрипт для обновления серверных файлов
     - `nano update.sh`
         - `#!/bin/bash`
