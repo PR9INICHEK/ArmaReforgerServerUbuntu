@@ -7,6 +7,9 @@
 3. ? Сейчас там указан _Restart=on-failure_
    - Будет конфликт, возможно, что проще решить через **cron** - https://stackoverflow.com/a/49527283
 
+4. `crontab -e`
+5. 
+
 
 # Полезные ссылки
 1. https://stackoverflow.com/a/50332245
