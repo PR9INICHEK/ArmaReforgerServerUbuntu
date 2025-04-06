@@ -15,3 +15,4 @@
 
 # Полезные ссылки
 1. https://stackoverflow.com/a/50332245
+2. https://opensource.com/article/17/11/how-use-cron-linux
