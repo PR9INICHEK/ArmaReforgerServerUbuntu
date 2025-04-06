@@ -25,3 +25,4 @@
 
 # Полезные ссылки
 1. https://community.bistudio.com/wiki/DayZ:Hosting_a_Linux_Server#As_Daemon_With_Restart_and_Auto-Update
+2. https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html#RestartSec=
