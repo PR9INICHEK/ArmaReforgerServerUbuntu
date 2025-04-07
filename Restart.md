@@ -8,6 +8,7 @@
 2. https://opensource.com/article/17/11/how-use-cron-linux
 3. https://crontab.guru
 4. https://askubuntu.com/a/857948
+5. Ещё интересный метод - https://discord.com/channels/105462288051380224/976119935875026964/1358871516401631302
 
 ## Какие-то другие мысли
 1. Проверяем, что у нас версия **systemd >= 229**
