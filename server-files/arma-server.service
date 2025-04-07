@@ -1,6 +1,7 @@
 [Unit]
 Description=Arma Reforger Dedicated Server
 Wants=network-online.target
+# Start only after ... is initialised
 After=syslog.target network.target nss-lookup.target network-online.target
 
 [Service]
