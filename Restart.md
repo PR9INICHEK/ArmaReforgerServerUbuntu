@@ -7,7 +7,7 @@
 3. ? Сейчас там указан _Restart=on-failure_
    - Будет конфликт, возможно, что проще решить через **cron** - https://stackoverflow.com/a/49527283
 
-4. `crontab -e`
+4. `sudo crontab -e`
    - `0 6 * * * sudo /bin/systemctl try-restart arma-server`
       - Для перезапуска в 6 утра каждого дня
 
