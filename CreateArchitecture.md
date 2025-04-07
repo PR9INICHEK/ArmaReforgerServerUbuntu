@@ -24,7 +24,7 @@
     - `sudo chmod +x ~/update.sh`
 8. Создаём конфиг для службы
     - `sudo nano /etc/systemd/system/arma-server.service`
-    - Берём данные с [конфига](server-files/ServiceConfig.ini)
+    - Берём данные с [конфига](server-files/arma-server.service)
 9. Перезапускаем **FIX-ME**, чтобы новая служба добавилась
     - `sudo systemctl daemon-reload`
 10. 
