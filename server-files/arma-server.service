@@ -5,9 +5,9 @@ Wants=network-online.target
 After=syslog.target network.target nss-lookup.target network-online.target
 
 [Service]
-ExecStartPre=/home/armarserver/update.sh
-ExecStart=/home/armarserver/start.sh
 WorkingDirectory=/home/armarserver/
+ExecStartPre=/bin/bash/home/armarserver/update.sh
+ExecStart=/bin/bash/home/armarserver/start.sh
 LimitNOFILE=100000
 ExecReload=/bin/kill -s HUP $MAINPID
 ExecStop=/bin/kill -s INT $MAINPID
