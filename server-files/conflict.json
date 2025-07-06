@@ -8,6 +8,11 @@
 		"crossPlatform": true,
 		"gameProperties": {
 			"serverMinGrassDistance": 50
-		}
+		},
+		"mods": [
+			{
+				"modId": "65871238A2ACBE86"
+			}
+		]
 	}
 }
