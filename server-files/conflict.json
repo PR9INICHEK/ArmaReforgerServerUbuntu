@@ -4,7 +4,7 @@
 		"passwordAdmin": "CHANGE_ME",
 		"admins" : [],
 		"scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
-		"maxPlayers": 100,
+		"maxPlayers": 64,
 		"crossPlatform": true,
 		"gameProperties": {
 			"serverMinGrassDistance": 50
